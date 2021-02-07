@@ -9,5 +9,10 @@
       "email": "s.kulitskiy@gmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "src\\": "."
+    }
+  }
 }
